@@ -1,0 +1,43 @@
+{
+  "name": "triplelift-example",
+  "version": "1.0.0",
+  "description": "Triplelift Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js",
+    "watch": "DEBUG=up* ./node_modules/.bin/nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lortmorris/triplelift-example.git"
+  },
+  "keywords": [
+    "universal-pattern",
+    "agent"
+  ],
+  "author": "César Casas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lortmorris/triplelift-example/issues"
+  },
+  "homepage": "https://github.com/lortmorris/triplelift-example#readme",
+  "dependencies": {
+    "config": "^3.0.1",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "mocha": "^6.0.2",
+    "mongojs": "^2.6.0",
+    "supertest": "^4.0.2",
+    "universal-pattern": "^1.0.18"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^1.18.10"
+  }
+}
